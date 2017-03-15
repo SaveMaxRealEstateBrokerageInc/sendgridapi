@@ -12,7 +12,7 @@ namespace sendgridapi.Controllers
     {
         public void Get()
         {
-            SendgridManager.RegisterationConfirmationMail("receiverEmailId", "templateId");
+            SendgridManager.SendMail("receiverEmailId");
         }
     }
 }
